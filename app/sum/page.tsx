@@ -14,7 +14,7 @@ export default function Sum() {
                 {'Enquanto K < INDICE faça { K = K + 1; SOMA = SOMA + K; }'}
                 <br></br>
                 Imprimir(SOMA);
-                <br></br>
+                <br></br><br></br>
                 Ao final do processamento, qual será o valor da variável SOMA?
             </p>
             <h2 className={styles.solutionLabel}>Solução</h2>

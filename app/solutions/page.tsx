@@ -1,6 +1,7 @@
 "use client";
 
 import Fibonacci from '../fibonacci/page';
+import RevenuePerState from '../revenue-per-state/page';
 import Revenue from '../revenue/page';
 import Sum from '../sum/page';
 import styles from './page.module.css';
@@ -11,6 +12,7 @@ export default function Solutions() {
             <Sum></Sum>
             <Fibonacci></Fibonacci>
             <Revenue></Revenue>
+            <RevenuePerState></RevenuePerState>
         </div>
     );
 }
