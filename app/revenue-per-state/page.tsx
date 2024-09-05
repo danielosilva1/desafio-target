@@ -10,11 +10,11 @@ export default function RevenuePerState() {
     let revenueES = 27165.48;
     let revenueOthers = 19849.53;
     let totalRevenue = revenueSP + revenueRJ + revenueMG + revenueES + revenueOthers;
-    let percentSP = revenueSP/totalRevenue;
-    let percentRJ = revenueRJ/totalRevenue;
-    let percentMG = revenueMG/totalRevenue;
-    let percentES = revenueES/totalRevenue;
-    let percentOthers= revenueOthers/totalRevenue;
+    let percentSP = (revenueSP/totalRevenue)*100;
+    let percentRJ = (revenueRJ/totalRevenue)*100;
+    let percentMG = (revenueMG/totalRevenue)*100;
+    let percentES = (revenueES/totalRevenue)*100;
+    let percentOthers= (revenueOthers/totalRevenue)*100;
 
     return (
         <div className={styles.mainContainer}>
