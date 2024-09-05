@@ -27,6 +27,7 @@ export default function Reverse() {
         const { value } = e.target;
         setString(value);
         setReversedString('');
+        setIsPalindrome(false);
     }
     return (
         <div className={styles.mainContainer}>
