@@ -56,7 +56,7 @@ export default function Revenue() {
 
     useEffect(() => {async function loadData() {
         // Carrega os dados salvos no arquivo dados.json
-        const result = await fetch('../desafio-target/dados.json');
+        const result = await fetch('/desafio-target/dados.json');
         const data = await result.json();
         getStatistics(data);
     }
