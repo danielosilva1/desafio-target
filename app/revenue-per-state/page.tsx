@@ -1,7 +1,7 @@
 'use client';
 
 import styles from '../page.module.css';
-import { formatCurrency } from '../revenue/page';
+import { formatCurrency } from '../../utils/formatCurrency';
 
 export default function RevenuePerState() {
     let revenueSP = 67836.43;

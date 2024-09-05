@@ -2,15 +2,11 @@
 
 import { useEffect, useState } from 'react';
 import styles from '../page.module.css';
+import { formatCurrency } from '../../utils/formatCurrency';
 
 interface DailyRevenueFormat {
     "dia": string,
     "valor": number
-}
-
-export function formatCurrency(value: number) {
-    // Formata um número para o formato da moeda brasileira
-    return new Intl.NumberFormat('pt-BR', { style: 'currency', currency: 'BRL'}).format(value);
 }
 
 export default function Revenue() {
